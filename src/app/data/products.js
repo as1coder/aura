@@ -1,0 +1,143 @@
+const sections = [
+    {
+      id: "everyday",
+      title: "Everyday Essentials",
+      subtitle: "Fresh fragrances crafted for daily elegance.",
+      products: [
+        {
+          productId: "citrus-serenade",
+          name: "Citrus Serenade",
+          image: "/eros.jpg",
+          price: 499,
+          salePrice: 399,
+          desc: "A vibrant blend of citrus notes with a hint of floral, perfect for a refreshing start to your day.",
+          size: { "50ml": 399, "100ml": 749 },
+        },
+        {
+          productId: "morning-mist",
+          name: "Morning Mist",
+          image: "/blueChannel.jpg",
+          price: 599,
+          salePrice: 499,
+          desc: "A refreshing blend of fresh herbs and citrus, ideal for a vibrant morning routine.",
+          size: { "50ml": 499, "100ml": 799 },
+        },
+        {
+          productId: "fresh-aura",
+          name: "Fresh Aura",
+          image: "/red diamond.jpg",
+          price: 549,
+          salePrice: 349,
+          desc: "A clean and crisp fragrance with a touch of sweetness, perfect for all-day wear.",
+          size: { "50ml": 349, "100ml": 649 },
+        },
+      ],
+    },
+
+    {
+      id: "evening",
+      title: "Evening & Party",
+      subtitle: "Bold and intense scents made for unforgettable nights.",
+      products: [
+        {
+          productId: "mystic-oud",
+          name: "Mystic Oud",
+          image: "/oud.jpg",
+          price: 899,
+          salePrice: 699,
+          desc: "A rich and mysterious fragrance with deep oud notes, perfect for evening wear.",
+          size: { "50ml": 699, "100ml": 1249 },
+        },
+        {
+          productId: "night-royale",
+          name: "Night Royale",
+          image: "/blueChannel.jpg",
+          price: 999,
+          salePrice: 799,
+          desc: "An opulent blend of spices and vanilla, designed for a luxurious evening experience.",
+          size: { "50ml": 799, "100ml": 1549 },
+        },
+        {
+          productId: "dark-velvet",
+          name: "Dark Velvet",
+          image: "/red diamond.jpg",
+          price: 799,
+          salePrice: 599,
+          desc: "A sensual fragrance with warm amber and patchouli notes, ideal for intimate moments.",
+          size: { "50ml": 599, "100ml": 1099 },
+        },
+      ],
+    },
+
+    {
+      id: "seasonal",
+      title: "Seasonal Picks",
+      subtitle: "Curated fragrances inspired by every season.",
+      products: [
+        {
+          productId: "summer-breeze",
+          name: "Summer Breeze",
+          image: "/eros.jpg",
+          price: 699,
+          salePrice: 599,
+          desc: "A light and refreshing fragrance with citrus and floral notes, perfect for summer days.",
+          size: { "50ml": 599, "100ml": 1099 },
+        },
+        {
+          productId: "winter-oud",  
+          name: "Winter Oud",
+          image: "/blueChannel.jpg",
+          price: 849,
+          salePrice: 649,
+          desc: "A warm and comforting fragrance with rich oud and spicy notes, ideal for winter nights.",
+          size: { "50ml": 649, "100ml": 1199 },
+        },
+        {
+          productId: "ocean-bloom",
+          name: "Ocean Bloom",
+          image: "/red diamond.jpg",
+          price: 749,
+          salePrice: 549,
+          desc: "A fresh and aquatic fragrance with sea salt and floral notes, reminiscent of ocean breezes.",
+          size: { "50ml": 549, "100ml": 1049 },
+        },
+      ],
+    },
+
+    {
+      id: "signature",
+      title: "Signature Attars",
+      subtitle: "Traditional luxury blended with timeless elegance.",
+      products: [
+        {
+          productId: "royal-attar",
+          name: "Royal Attar",
+          image: "/eros.jpg",
+          price: 1199,
+          salePrice: 899,
+          desc: "A regal fragrance with a blend of traditional and modern notes, perfect for special occasions.",
+          size: { "50ml": 899, "100ml": 174 },
+        },
+        {
+          productId: "golden-oud",
+          name: "Golden Oud",
+          image: "/blueChannel.jpg",
+          price: 999,
+          salePrice: 699,
+          desc: "A luxurious blend of golden oud and warm spices, designed for a sophisticated evening look.",
+          size: { "50ml": 699, "100ml": 1299 },
+        },
+        {
+          productId: "amber-essence",
+          name: "Amber Essence",
+          image: "/red diamond.jpg",
+          price: 1099,
+          salePrice: 799,
+          desc: "A rich and sensual fragrance with warm amber and vanilla notes, ideal for intimate moments.",
+          size: { "50ml": 799, "100ml": 1599 },
+        },
+      ],
+    },
+  ];
+
+  export default sections;

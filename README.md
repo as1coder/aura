@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aura Perfumes ✨
 
-## Getting Started
+A luxury-inspired perfume and attar ecommerce website built with Next.js, Tailwind CSS, and Framer Motion. Designed with a modern premium aesthetic, cinematic layouts, smooth animations, and a WhatsApp-based ordering system for a clean and lightweight ecommerce experience.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+- Luxury dark themed UI
+- Fully responsive design
+- Smooth animations using Framer Motion
+- Product categories with sticky filter navigation
+- Dynamic product detail pages
+- Add to Cart functionality
+- Cart stored using localStorage
+- Quantity management
+- Remove from cart
+- WhatsApp checkout integration
+- Related products section
+- Premium typography & spacing
+- Mobile-first responsive experience
+
+---
+
+## 🛍 Product Categories
+
+- Everyday Essentials
+- Evening & Party
+- Seasonal Picks
+- Signature Attars
+
+---
+
+## ⚡ Tech Stack
+
+- Next.js 16
+- React.js
+- Tailwind CSS
+- Framer Motion
+- LocalStorage API
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+ ├── app/
+ │    ├── page.jsx
+ │    ├── products/page.jsx
+ │    ├── cart/page.jsx
+ │    ├── [id]/page.jsx
+ │
+ ├── component/
+ │    ├── Navbar.jsx
+ │    ├── Footer.jsx
+ │    ├── Collection.jsx
+ │
+ ├── data/
+ │    ├── products.js
+ │
+ ├── fonts/
