@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Collection() {
   const items = [
     { name: "Everyday Essentials", image: "/everydayPerfume.webp" , link: "/products#everyday" },
-    { name: "Evening & Party", image: "/darkperfume.webp" , link: "/products#evening"},
+    { name: "Evening & Party", image: "/eveningPartyImage.webp" , link: "/products#evening"},
     { name: "Seasonal Picks", image: "/seasonalPerfume.webp", link: "/products#seasonal" },
     { name: "Signature Attars", image: "/signaturePerfume.webp",  link: "/products#signature" },
   ];
